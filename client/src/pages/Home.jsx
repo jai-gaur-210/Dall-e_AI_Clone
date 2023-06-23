@@ -71,7 +71,7 @@ const Home = () => {
           type="text"
           name="text"
           placeholder="Search something..."
-          autoComplete="off"
+          autoComplete="new-password"
           value={searchText}
           handleChange={handleSearchChange}
         />
